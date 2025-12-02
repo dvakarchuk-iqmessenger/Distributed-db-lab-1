@@ -1,0 +1,3 @@
+webparser:
+  start_page: "https://example.com"
+  title_selector: "h1"

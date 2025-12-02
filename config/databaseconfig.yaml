@@ -1,0 +1,6 @@
+databaseconfig:
+  databasetype: "sqlite"
+  sqlitedatabase:
+    dbfile: "db/localdatabase.sqlite"
+    timeout: 5000
+    poolsize: 5

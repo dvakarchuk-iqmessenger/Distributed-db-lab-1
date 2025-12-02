@@ -23,3 +23,26 @@
 - У консолі виводиться текст заголовка сторінки (`Example Domain`).
 
 <img width="368" height="243" alt="image" src="https://github.com/user-attachments/assets/8a6db3ba-be02-44d9-a22b-15e7f01bcb9b" />
+
+
+
+# Етап 2 – конфігурація через YAML
+
+На цьому етапі налаштовано конфігурацію застосунку через YAML‑файли у директорії `config/`:
+
+- `defaultconfig.yaml` – базові шляхи (`root_dir`, `config_dir`, `media_dir`).
+- `webparser.yaml` – параметри парсингу (`start_page`, CSS‑селектори тощо).
+- `logging.yaml` – налаштування логування (каталог логів, рівень, імена файлів).
+- `databaseconfig.yaml` – початкова конфігурація підключення до бази даних (тип БД, шлях до файлу SQLite, таймаути, пул з’єднань).
+
+Для роботи з конфігурацією реалізовано клас `AppConfigLoader` (`lib/app_config_loader.rb`), який:
+
+- Знаходить YAML‑файли у директорії `config/`.
+- Обробляє вміст через ERB (можна використовувати Ruby‑вирази в YAML).
+- Завантажує та повертає дані у вигляді Ruby‑хешів через методи:
+    - `load_default_config`
+    - `load_webparser_config`
+    - `load_logging_config`
+    - `load_database_config`
+
+Перевірка роботи конфігурації виконується через скрипт `lib/main.rb`, який зчитує всі чотири конфіг‑файли за допомогою `AppConfigLoader` та виводить їх вміст у консоль. Успішний запуск `ruby lib/main.rb` підтверджує коректну роботу системи конфігурацій.
