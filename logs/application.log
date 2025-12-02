@@ -553,3 +553,288 @@ I, [2025-12-02T21:22:21.476651 #16552]  INFO -- : Saving items to YAML dir: C:/U
 I, [2025-12-02T21:22:21.494966 #16552]  INFO -- : Engine: running run_save_to_sqlite
 I, [2025-12-02T21:22:21.584579 #16552]  INFO -- : Saved 20 items to SQLite
 I, [2025-12-02T21:22:21.584783 #16552]  INFO -- : SQLite connection closed
+I, [2025-12-02T21:29:48.532809 #24968]  INFO -- : Cart created with 0 items
+I, [2025-12-02T21:29:48.534133 #24968]  INFO -- : Engine logging initialized
+I, [2025-12-02T21:29:48.534477 #24968]  INFO -- : Engine config loaded: {"run_website_parser" => 1, "run_save_to_csv" => 1, "run_save_to_json" => 1, "run_save_to_yaml" => 1, "run_save_to_sqlite" => 1, "run_save_to_mongodb" => 0}
+I, [2025-12-02T21:29:48.534909 #24968]  INFO -- : Connected to SQLite database at db/localdatabase.sqlite
+I, [2025-12-02T21:29:48.534965 #24968]  INFO -- : Engine: running run_website_parser
+I, [2025-12-02T21:29:48.535761 #24968]  INFO -- : SimpleWebsiteParser: start parsing https://books.toscrape.com/
+I, [2025-12-02T21:29:49.324534 #24968]  INFO -- : Found 20 product links
+I, [2025-12-02T21:29:49.723093 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+I, [2025-12-02T21:29:49.762469 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+I, [2025-12-02T21:29:49.849565 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+I, [2025-12-02T21:29:49.865561 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+I, [2025-12-02T21:29:49.866690 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+I, [2025-12-02T21:29:49.866001 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+I, [2025-12-02T21:29:49.866084 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+I, [2025-12-02T21:29:49.866164 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+I, [2025-12-02T21:29:49.866776 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+I, [2025-12-02T21:29:49.865913 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/soumission_998/index.html
+I, [2025-12-02T21:29:49.882128 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/olio_984/index.html
+I, [2025-12-02T21:29:49.882288 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+I, [2025-12-02T21:29:49.882395 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+I, [2025-12-02T21:29:49.882545 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+I, [2025-12-02T21:29:49.882630 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+I, [2025-12-02T21:29:49.882740 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/set-me-free_988/index.html
+I, [2025-12-02T21:29:49.882820 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+I, [2025-12-02T21:29:49.882916 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+I, [2025-12-02T21:29:49.882996 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+I, [2025-12-02T21:29:49.897409 #24968]  INFO -- : Parse product page https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+I, [2025-12-02T21:29:51.237803 #24968]  INFO -- : SimpleWebsiteParser: parsed 20 products
+I, [2025-12-02T21:29:51.237953 #24968]  INFO -- : Added item: A Light in the Attic (51.77)
+I, [2025-12-02T21:29:51.238011 #24968]  INFO -- : Added item: Tipping the Velvet (53.74)
+I, [2025-12-02T21:29:51.238066 #24968]  INFO -- : Added item: Soumission (50.1)
+I, [2025-12-02T21:29:51.238110 #24968]  INFO -- : Added item: Olio (23.88)
+I, [2025-12-02T21:29:51.238150 #24968]  INFO -- : Added item: Sharp Objects (47.82)
+I, [2025-12-02T21:29:51.238192 #24968]  INFO -- : Added item: Set Me Free (17.46)
+I, [2025-12-02T21:29:51.238232 #24968]  INFO -- : Added item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (17.93)
+I, [2025-12-02T21:29:51.238274 #24968]  INFO -- : Added item: Libertarianism for Beginners (51.33)
+I, [2025-12-02T21:29:51.238314 #24968]  INFO -- : Added item: Rip it Up and Start Again (35.02)
+I, [2025-12-02T21:29:51.238348 #24968]  INFO -- : Added item: Shakespeare's Sonnets (20.66)
+I, [2025-12-02T21:29:51.238381 #24968]  INFO -- : Added item: Sapiens: A Brief History of Humankind (54.23)
+I, [2025-12-02T21:29:51.238415 #24968]  INFO -- : Added item: The Black Maria (52.15)
+I, [2025-12-02T21:29:51.238449 #24968]  INFO -- : Added item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (57.25)
+I, [2025-12-02T21:29:51.238522 #24968]  INFO -- : Added item: The Requiem Red (22.65)
+I, [2025-12-02T21:29:51.238564 #24968]  INFO -- : Added item: It's Only the Himalayas (45.17)
+I, [2025-12-02T21:29:51.238600 #24968]  INFO -- : Added item: Starving Hearts (Triangular Trade Trilogy, #1) (13.99)
+I, [2025-12-02T21:29:51.238643 #24968]  INFO -- : Added item: The Dirty Little Secrets of Getting Your Dream Job (33.34)
+I, [2025-12-02T21:29:51.238685 #24968]  INFO -- : Added item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (52.29)
+I, [2025-12-02T21:29:51.238726 #24968]  INFO -- : Added item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (22.6)
+I, [2025-12-02T21:29:51.238767 #24968]  INFO -- : Added item: Mesaerion: The Best Science Fiction Stories 1800-1849 (37.59)
+I, [2025-12-02T21:29:51.238812 #24968]  INFO -- : Engine: running run_save_to_csv
+I, [2025-12-02T21:29:51.238865 #24968]  INFO -- : Saving items to CSV: C:/Users/dimav/Distributed-db-lab-1/lib/../output/data.csv
+I, [2025-12-02T21:29:51.239884 #24968]  INFO -- : Engine: running run_save_to_json
+I, [2025-12-02T21:29:51.239948 #24968]  INFO -- : Saving items to JSON: C:/Users/dimav/Distributed-db-lab-1/lib/../output/data.json
+I, [2025-12-02T21:29:51.240495 #24968]  INFO -- : Engine: running run_save_to_yaml
+I, [2025-12-02T21:29:51.240563 #24968]  INFO -- : Saving items to YAML dir: C:/Users/dimav/Distributed-db-lab-1/lib/../output/yaml_items
+I, [2025-12-02T21:29:51.259110 #24968]  INFO -- : Engine: running run_save_to_sqlite
+I, [2025-12-02T21:29:51.344353 #24968]  INFO -- : Saved 20 items to SQLite
+I, [2025-12-02T21:29:51.344542 #24968]  INFO -- : SQLite connection closed
+I, [2025-12-02T21:34:40.714666 #5076]  INFO -- : Cart created with 0 items
+I, [2025-12-02T21:34:40.716240 #5076]  INFO -- : Engine logging initialized
+I, [2025-12-02T21:34:40.716629 #5076]  INFO -- : Engine config loaded: {"run_website_parser" => 1, "run_save_to_csv" => 1, "run_save_to_json" => 1, "run_save_to_yaml" => 1, "run_save_to_sqlite" => 1, "run_save_to_mongodb" => 0}
+I, [2025-12-02T21:34:40.717111 #5076]  INFO -- : Connected to SQLite database at db/localdatabase.sqlite
+I, [2025-12-02T21:34:40.717190 #5076]  INFO -- : Engine: running run_website_parser
+I, [2025-12-02T21:34:40.718087 #5076]  INFO -- : SimpleWebsiteParser: start parsing https://books.toscrape.com/
+I, [2025-12-02T21:34:41.384826 #5076]  INFO -- : Found 20 product links
+I, [2025-12-02T21:34:41.828192 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+I, [2025-12-02T21:34:41.932451 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+I, [2025-12-02T21:34:41.932559 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+I, [2025-12-02T21:34:41.932640 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/set-me-free_988/index.html
+I, [2025-12-02T21:34:41.932718 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+I, [2025-12-02T21:34:41.932796 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+I, [2025-12-02T21:34:41.932874 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/soumission_998/index.html
+I, [2025-12-02T21:34:41.932954 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+I, [2025-12-02T21:34:41.933037 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/olio_984/index.html
+I, [2025-12-02T21:34:41.933125 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+I, [2025-12-02T21:34:41.933200 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+I, [2025-12-02T21:34:41.948058 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+I, [2025-12-02T21:34:41.949300 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+I, [2025-12-02T21:34:41.948372 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+I, [2025-12-02T21:34:41.948478 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+I, [2025-12-02T21:34:41.948573 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+I, [2025-12-02T21:34:41.948654 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+I, [2025-12-02T21:34:41.948733 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+I, [2025-12-02T21:34:41.948292 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+I, [2025-12-02T21:34:42.074624 #5076]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+I, [2025-12-02T21:34:43.285616 #5076]  INFO -- : SimpleWebsiteParser: parsed 20 products
+I, [2025-12-02T21:34:43.285841 #5076]  INFO -- : Added item: A Light in the Attic (51.77)
+I, [2025-12-02T21:34:43.285949 #5076]  INFO -- : Added item: Tipping the Velvet (53.74)
+I, [2025-12-02T21:34:43.286011 #5076]  INFO -- : Added item: Olio (23.88)
+I, [2025-12-02T21:34:43.286075 #5076]  INFO -- : Added item: Soumission (50.1)
+I, [2025-12-02T21:34:43.286127 #5076]  INFO -- : Added item: The Black Maria (52.15)
+I, [2025-12-02T21:34:43.286178 #5076]  INFO -- : Added item: Sharp Objects (47.82)
+I, [2025-12-02T21:34:43.286226 #5076]  INFO -- : Added item: Libertarianism for Beginners (51.33)
+I, [2025-12-02T21:34:43.286266 #5076]  INFO -- : Added item: Set Me Free (17.46)
+I, [2025-12-02T21:34:43.286306 #5076]  INFO -- : Added item: Sapiens: A Brief History of Humankind (54.23)
+I, [2025-12-02T21:34:43.286348 #5076]  INFO -- : Added item: Rip it Up and Start Again (35.02)
+I, [2025-12-02T21:34:43.286388 #5076]  INFO -- : Added item: Shakespeare's Sonnets (20.66)
+I, [2025-12-02T21:34:43.286429 #5076]  INFO -- : Added item: The Requiem Red (22.65)
+I, [2025-12-02T21:34:43.286470 #5076]  INFO -- : Added item: It's Only the Himalayas (45.17)
+I, [2025-12-02T21:34:43.286511 #5076]  INFO -- : Added item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (22.6)
+I, [2025-12-02T21:34:43.286544 #5076]  INFO -- : Added item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (57.25)
+I, [2025-12-02T21:34:43.286577 #5076]  INFO -- : Added item: Starving Hearts (Triangular Trade Trilogy, #1) (13.99)
+I, [2025-12-02T21:34:43.286609 #5076]  INFO -- : Added item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (52.29)
+I, [2025-12-02T21:34:43.286643 #5076]  INFO -- : Added item: Mesaerion: The Best Science Fiction Stories 1800-1849 (37.59)
+I, [2025-12-02T21:34:43.286676 #5076]  INFO -- : Added item: The Dirty Little Secrets of Getting Your Dream Job (33.34)
+I, [2025-12-02T21:34:43.286708 #5076]  INFO -- : Added item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (17.93)
+I, [2025-12-02T21:34:43.286745 #5076]  INFO -- : Engine: running run_save_to_csv
+I, [2025-12-02T21:34:43.286797 #5076]  INFO -- : Saving items to CSV: C:/Users/dimav/Distributed-db-lab-1/lib/../output/data.csv
+I, [2025-12-02T21:34:43.288037 #5076]  INFO -- : Engine: running run_save_to_json
+I, [2025-12-02T21:34:43.288130 #5076]  INFO -- : Saving items to JSON: C:/Users/dimav/Distributed-db-lab-1/lib/../output/data.json
+I, [2025-12-02T21:34:43.288635 #5076]  INFO -- : Engine: running run_save_to_yaml
+I, [2025-12-02T21:34:43.288717 #5076]  INFO -- : Saving items to YAML dir: C:/Users/dimav/Distributed-db-lab-1/lib/../output/yaml_items
+I, [2025-12-02T21:34:43.307034 #5076]  INFO -- : Engine: running run_save_to_sqlite
+I, [2025-12-02T21:34:43.393410 #5076]  INFO -- : Saved 20 items to SQLite
+I, [2025-12-02T21:34:43.393615 #5076]  INFO -- : SQLite connection closed
+I, [2025-12-02T21:37:18.122023 #2400]  INFO -- : Cart created with 0 items
+I, [2025-12-02T21:37:18.129558 #2400]  INFO -- : Engine logging initialized
+I, [2025-12-02T21:37:18.130072 #2400]  INFO -- : Engine config loaded: {"run_website_parser" => 1, "run_save_to_csv" => 1, "run_save_to_json" => 1, "run_save_to_yaml" => 1, "run_save_to_sqlite" => 1, "run_save_to_mongodb" => 0}
+I, [2025-12-02T21:37:18.131441 #2400]  INFO -- : Connected to SQLite database at db/localdatabase.sqlite
+I, [2025-12-02T21:37:18.131541 #2400]  INFO -- : Engine: running run_website_parser
+I, [2025-12-02T21:37:18.138959 #2400]  INFO -- : SimpleWebsiteParser: start parsing https://books.toscrape.com/
+I, [2025-12-02T21:37:18.822336 #2400]  INFO -- : Found 20 product links
+I, [2025-12-02T21:37:19.234253 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+I, [2025-12-02T21:37:19.250240 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+I, [2025-12-02T21:37:19.355790 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+I, [2025-12-02T21:37:19.355938 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/soumission_998/index.html
+I, [2025-12-02T21:37:19.356752 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+I, [2025-12-02T21:37:19.371050 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/olio_984/index.html
+I, [2025-12-02T21:37:19.371213 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+I, [2025-12-02T21:37:19.371313 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+I, [2025-12-02T21:37:19.371419 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+I, [2025-12-02T21:37:19.371513 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+I, [2025-12-02T21:37:19.386919 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+I, [2025-12-02T21:37:19.387049 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+I, [2025-12-02T21:37:19.387138 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+I, [2025-12-02T21:37:19.387219 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+I, [2025-12-02T21:37:19.387299 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+I, [2025-12-02T21:37:19.387376 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+I, [2025-12-02T21:37:19.387458 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/set-me-free_988/index.html
+I, [2025-12-02T21:37:19.387546 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+I, [2025-12-02T21:37:19.387623 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+I, [2025-12-02T21:37:19.387696 #2400]  INFO -- : Parse product page https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+I, [2025-12-02T21:37:20.752235 #2400]  INFO -- : SimpleWebsiteParser: parsed 20 products
+I, [2025-12-02T21:37:20.752377 #2400]  INFO -- : Added item: Tipping the Velvet (53.74)
+I, [2025-12-02T21:37:20.752474 #2400]  INFO -- : Added item: Olio (23.88)
+I, [2025-12-02T21:37:20.752556 #2400]  INFO -- : Added item: Soumission (50.1)
+I, [2025-12-02T21:37:20.752622 #2400]  INFO -- : Added item: A Light in the Attic (51.77)
+I, [2025-12-02T21:37:20.752661 #2400]  INFO -- : Added item: Libertarianism for Beginners (51.33)
+I, [2025-12-02T21:37:20.752696 #2400]  INFO -- : Added item: Sharp Objects (47.82)
+I, [2025-12-02T21:37:20.752730 #2400]  INFO -- : Added item: Sapiens: A Brief History of Humankind (54.23)
+I, [2025-12-02T21:37:20.752763 #2400]  INFO -- : Added item: Set Me Free (17.46)
+I, [2025-12-02T21:37:20.752797 #2400]  INFO -- : Added item: Shakespeare's Sonnets (20.66)
+I, [2025-12-02T21:37:20.752831 #2400]  INFO -- : Added item: Rip it Up and Start Again (35.02)
+I, [2025-12-02T21:37:20.752872 #2400]  INFO -- : Added item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (52.29)
+I, [2025-12-02T21:37:20.752906 #2400]  INFO -- : Added item: Starving Hearts (Triangular Trade Trilogy, #1) (13.99)
+I, [2025-12-02T21:37:20.752940 #2400]  INFO -- : Added item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (57.25)
+I, [2025-12-02T21:37:20.752973 #2400]  INFO -- : Added item: The Requiem Red (22.65)
+I, [2025-12-02T21:37:20.753007 #2400]  INFO -- : Added item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (17.93)
+I, [2025-12-02T21:37:20.753041 #2400]  INFO -- : Added item: The Black Maria (52.15)
+I, [2025-12-02T21:37:20.753075 #2400]  INFO -- : Added item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (22.6)
+I, [2025-12-02T21:37:20.753109 #2400]  INFO -- : Added item: The Dirty Little Secrets of Getting Your Dream Job (33.34)
+I, [2025-12-02T21:37:20.753142 #2400]  INFO -- : Added item: Mesaerion: The Best Science Fiction Stories 1800-1849 (37.59)
+I, [2025-12-02T21:37:20.753176 #2400]  INFO -- : Added item: It's Only the Himalayas (45.17)
+I, [2025-12-02T21:37:20.753212 #2400]  INFO -- : Engine: running run_save_to_csv
+I, [2025-12-02T21:37:20.753254 #2400]  INFO -- : Saving items to CSV: C:/Users/dimav/Distributed-db-lab-1/lib/../output/data.csv
+I, [2025-12-02T21:37:20.754073 #2400]  INFO -- : Engine: running run_save_to_json
+I, [2025-12-02T21:37:20.754134 #2400]  INFO -- : Saving items to JSON: C:/Users/dimav/Distributed-db-lab-1/lib/../output/data.json
+I, [2025-12-02T21:37:20.754683 #2400]  INFO -- : Engine: running run_save_to_yaml
+I, [2025-12-02T21:37:20.754745 #2400]  INFO -- : Saving items to YAML dir: C:/Users/dimav/Distributed-db-lab-1/lib/../output/yaml_items
+I, [2025-12-02T21:37:20.772888 #2400]  INFO -- : Engine: running run_save_to_sqlite
+I, [2025-12-02T21:37:20.869233 #2400]  INFO -- : Saved 20 items to SQLite
+I, [2025-12-02T21:37:20.869495 #2400]  INFO -- : SQLite connection closed
+I, [2025-12-02T21:37:43.051683 #26724]  INFO -- : Cart created with 0 items
+I, [2025-12-02T21:37:43.053401 #26724]  INFO -- : Engine logging initialized
+I, [2025-12-02T21:37:43.053830 #26724]  INFO -- : Engine config loaded: {"run_website_parser" => 1, "run_save_to_csv" => 1, "run_save_to_json" => 1, "run_save_to_yaml" => 1, "run_save_to_sqlite" => 1, "run_save_to_mongodb" => 0}
+I, [2025-12-02T21:37:43.054334 #26724]  INFO -- : Connected to SQLite database at db/localdatabase.sqlite
+I, [2025-12-02T21:37:43.054458 #26724]  INFO -- : Engine: running run_website_parser
+I, [2025-12-02T21:37:43.055366 #26724]  INFO -- : SimpleWebsiteParser: start parsing https://books.toscrape.com/
+I, [2025-12-02T21:37:43.744278 #26724]  INFO -- : Found 20 product links
+I, [2025-12-02T21:37:44.158256 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+I, [2025-12-02T21:37:44.181545 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+I, [2025-12-02T21:37:44.269173 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+I, [2025-12-02T21:37:44.285444 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+I, [2025-12-02T21:37:44.285635 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+I, [2025-12-02T21:37:44.285764 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+I, [2025-12-02T21:37:44.285902 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+I, [2025-12-02T21:37:44.302131 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+I, [2025-12-02T21:37:44.303610 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+I, [2025-12-02T21:37:44.302444 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/olio_984/index.html
+I, [2025-12-02T21:37:44.302530 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+I, [2025-12-02T21:37:44.302613 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/soumission_998/index.html
+I, [2025-12-02T21:37:44.302711 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+I, [2025-12-02T21:37:44.302790 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+I, [2025-12-02T21:37:44.302862 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+I, [2025-12-02T21:37:44.302933 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+I, [2025-12-02T21:37:44.303000 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/set-me-free_988/index.html
+I, [2025-12-02T21:37:44.303099 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+I, [2025-12-02T21:37:44.302362 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+I, [2025-12-02T21:37:44.397101 #26724]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+I, [2025-12-02T21:37:45.666251 #26724]  INFO -- : SimpleWebsiteParser: parsed 20 products
+I, [2025-12-02T21:37:45.666469 #26724]  INFO -- : Added item: A Light in the Attic (51.77)
+I, [2025-12-02T21:37:45.666557 #26724]  INFO -- : Added item: Soumission (50.1)
+I, [2025-12-02T21:37:45.666633 #26724]  INFO -- : Added item: Tipping the Velvet (53.74)
+I, [2025-12-02T21:37:45.666714 #26724]  INFO -- : Added item: Olio (23.88)
+I, [2025-12-02T21:37:45.666779 #26724]  INFO -- : Added item: Rip it Up and Start Again (35.02)
+I, [2025-12-02T21:37:45.666831 #26724]  INFO -- : Added item: Sapiens: A Brief History of Humankind (54.23)
+I, [2025-12-02T21:37:45.666874 #26724]  INFO -- : Added item: Set Me Free (17.46)
+I, [2025-12-02T21:37:45.666915 #26724]  INFO -- : Added item: Libertarianism for Beginners (51.33)
+I, [2025-12-02T21:37:45.666999 #26724]  INFO -- : Added item: Sharp Objects (47.82)
+I, [2025-12-02T21:37:45.667052 #26724]  INFO -- : Added item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (17.93)
+I, [2025-12-02T21:37:45.667097 #26724]  INFO -- : Added item: Shakespeare's Sonnets (20.66)
+I, [2025-12-02T21:37:45.667139 #26724]  INFO -- : Added item: The Black Maria (52.15)
+I, [2025-12-02T21:37:45.667180 #26724]  INFO -- : Added item: Starving Hearts (Triangular Trade Trilogy, #1) (13.99)
+I, [2025-12-02T21:37:45.667221 #26724]  INFO -- : Added item: The Dirty Little Secrets of Getting Your Dream Job (33.34)
+I, [2025-12-02T21:37:45.667262 #26724]  INFO -- : Added item: It's Only the Himalayas (45.17)
+I, [2025-12-02T21:37:45.667304 #26724]  INFO -- : Added item: Mesaerion: The Best Science Fiction Stories 1800-1849 (37.59)
+I, [2025-12-02T21:37:45.667345 #26724]  INFO -- : Added item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (52.29)
+I, [2025-12-02T21:37:45.667386 #26724]  INFO -- : Added item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (22.6)
+I, [2025-12-02T21:37:45.667427 #26724]  INFO -- : Added item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (57.25)
+I, [2025-12-02T21:37:45.667468 #26724]  INFO -- : Added item: The Requiem Red (22.65)
+I, [2025-12-02T21:37:45.667512 #26724]  INFO -- : Engine: running run_save_to_csv
+I, [2025-12-02T21:37:45.667560 #26724]  INFO -- : Saving items to CSV: C:/Users/dimav/Distributed-db-lab-1/lib/../output/data.csv
+I, [2025-12-02T21:37:45.668366 #26724]  INFO -- : Engine: running run_save_to_json
+I, [2025-12-02T21:37:45.668430 #26724]  INFO -- : Saving items to JSON: C:/Users/dimav/Distributed-db-lab-1/lib/../output/data.json
+I, [2025-12-02T21:37:45.668917 #26724]  INFO -- : Engine: running run_save_to_yaml
+I, [2025-12-02T21:37:45.668984 #26724]  INFO -- : Saving items to YAML dir: C:/Users/dimav/Distributed-db-lab-1/lib/../output/yaml_items
+I, [2025-12-02T21:37:45.686667 #26724]  INFO -- : Engine: running run_save_to_sqlite
+I, [2025-12-02T21:37:45.782110 #26724]  INFO -- : Saved 20 items to SQLite
+I, [2025-12-02T21:37:45.782405 #26724]  INFO -- : SQLite connection closed
+I, [2025-12-02T21:41:35.912445 #3208]  INFO -- : Cart created with 0 items
+I, [2025-12-02T21:41:35.913913 #3208]  INFO -- : Engine logging initialized
+I, [2025-12-02T21:41:35.914339 #3208]  INFO -- : Engine config loaded: {"run_website_parser" => 1, "run_save_to_csv" => 1, "run_save_to_json" => 1, "run_save_to_yaml" => 1, "run_save_to_sqlite" => 1, "run_save_to_mongodb" => 0}
+I, [2025-12-02T21:41:35.914850 #3208]  INFO -- : Connected to SQLite database at db/localdatabase.sqlite
+I, [2025-12-02T21:41:35.914974 #3208]  INFO -- : Engine: running run_website_parser
+I, [2025-12-02T21:41:35.915889 #3208]  INFO -- : SimpleWebsiteParser: start parsing https://books.toscrape.com/
+I, [2025-12-02T21:41:36.823934 #3208]  INFO -- : Found 20 product links
+I, [2025-12-02T21:41:37.239379 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+I, [2025-12-02T21:41:37.239537 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+I, [2025-12-02T21:41:37.350017 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+I, [2025-12-02T21:41:37.350151 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+I, [2025-12-02T21:41:37.350268 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/soumission_998/index.html
+I, [2025-12-02T21:41:37.366511 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+I, [2025-12-02T21:41:37.366652 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/set-me-free_988/index.html
+I, [2025-12-02T21:41:37.366733 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/sharp-objects_997/index.html
+I, [2025-12-02T21:41:37.366836 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/olio_984/index.html
+I, [2025-12-02T21:41:37.366934 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+I, [2025-12-02T21:41:37.367023 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+I, [2025-12-02T21:41:37.367103 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+I, [2025-12-02T21:41:37.382295 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+I, [2025-12-02T21:41:37.382445 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+I, [2025-12-02T21:41:37.382538 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+I, [2025-12-02T21:41:37.382626 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+I, [2025-12-02T21:41:37.382718 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-black-maria_991/index.html
+I, [2025-12-02T21:41:37.382799 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+I, [2025-12-02T21:41:37.382876 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+I, [2025-12-02T21:41:37.397635 #3208]  INFO -- : Parse product page https://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+I, [2025-12-02T21:41:38.625208 #3208]  INFO -- : SimpleWebsiteParser: parsed 20 products
+I, [2025-12-02T21:41:38.625351 #3208]  INFO -- : Added item: Tipping the Velvet (53.74)
+I, [2025-12-02T21:41:38.625416 #3208]  INFO -- : Added item: Soumission (50.1)
+I, [2025-12-02T21:41:38.625472 #3208]  INFO -- : Added item: A Light in the Attic (51.77)
+I, [2025-12-02T21:41:38.625529 #3208]  INFO -- : Added item: Olio (23.88)
+I, [2025-12-02T21:41:38.625582 #3208]  INFO -- : Added item: Set Me Free (17.46)
+I, [2025-12-02T21:41:38.625633 #3208]  INFO -- : Added item: Rip it Up and Start Again (35.02)
+I, [2025-12-02T21:41:38.625684 #3208]  INFO -- : Added item: Shakespeare's Sonnets (20.66)
+I, [2025-12-02T21:41:38.625737 #3208]  INFO -- : Added item: Sapiens: A Brief History of Humankind (54.23)
+I, [2025-12-02T21:41:38.625776 #3208]  INFO -- : Added item: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull (17.93)
+I, [2025-12-02T21:41:38.625817 #3208]  INFO -- : Added item: The Black Maria (52.15)
+I, [2025-12-02T21:41:38.625857 #3208]  INFO -- : Added item: Sharp Objects (47.82)
+I, [2025-12-02T21:41:38.625898 #3208]  INFO -- : Added item: Libertarianism for Beginners (51.33)
+I, [2025-12-02T21:41:38.625930 #3208]  INFO -- : Added item: The Requiem Red (22.65)
+I, [2025-12-02T21:41:38.625962 #3208]  INFO -- : Added item: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 (57.25)
+I, [2025-12-02T21:41:38.625996 #3208]  INFO -- : Added item: It's Only the Himalayas (45.17)
+I, [2025-12-02T21:41:38.626029 #3208]  INFO -- : Added item: The Dirty Little Secrets of Getting Your Dream Job (33.34)
+I, [2025-12-02T21:41:38.626061 #3208]  INFO -- : Added item: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics (22.6)
+I, [2025-12-02T21:41:38.626094 #3208]  INFO -- : Added item: Starving Hearts (Triangular Trade Trilogy, #1) (13.99)
+I, [2025-12-02T21:41:38.626165 #3208]  INFO -- : Added item: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) (52.29)
+I, [2025-12-02T21:41:38.626206 #3208]  INFO -- : Added item: Mesaerion: The Best Science Fiction Stories 1800-1849 (37.59)
+I, [2025-12-02T21:41:38.626254 #3208]  INFO -- : Engine: running run_save_to_csv
+I, [2025-12-02T21:41:38.626303 #3208]  INFO -- : Saving items to CSV: C:/Users/dimav/Distributed-db-lab-1/lib/../output/data.csv
+I, [2025-12-02T21:41:38.627123 #3208]  INFO -- : Engine: running run_save_to_json
+I, [2025-12-02T21:41:38.627178 #3208]  INFO -- : Saving items to JSON: C:/Users/dimav/Distributed-db-lab-1/lib/../output/data.json
+I, [2025-12-02T21:41:38.627672 #3208]  INFO -- : Engine: running run_save_to_yaml
+I, [2025-12-02T21:41:38.627726 #3208]  INFO -- : Saving items to YAML dir: C:/Users/dimav/Distributed-db-lab-1/lib/../output/yaml_items
+I, [2025-12-02T21:41:38.645886 #3208]  INFO -- : Engine: running run_save_to_sqlite
+I, [2025-12-02T21:41:38.732231 #3208]  INFO -- : Saved 20 items to SQLite
+I, [2025-12-02T21:41:38.732453 #3208]  INFO -- : SQLite connection closed
