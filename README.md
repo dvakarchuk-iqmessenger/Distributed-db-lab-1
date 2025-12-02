@@ -21,3 +21,5 @@
 - Виконується HTTP-запит до сторінки `https://example.com`.
 - За допомогою `nokogiri` з HTML-документа зчитується тег `h1`.
 - У консолі виводиться текст заголовка сторінки (`Example Domain`).
+
+<img width="368" height="243" alt="image" src="https://github.com/user-attachments/assets/8a6db3ba-be02-44d9-a22b-15e7f01bcb9b" />
