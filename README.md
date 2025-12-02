@@ -73,3 +73,7 @@
 - У логах (`logs/application.log`) фіксуються всі ключові дії (запит сторінки, парсинг книжок).
 - При потребі, парсер легко розширюється для парсингу інших сторінок/категорій.
 
+<img width="1832" height="714" alt="image" src="https://github.com/user-attachments/assets/e388c3d1-ddac-43dd-9d82-669686f2db49" />
+
+
+
