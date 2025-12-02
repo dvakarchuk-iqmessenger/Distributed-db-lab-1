@@ -1,0 +1,8 @@
+simple_parser:
+  start_page: "https://books.toscrape.com/"
+  product_selector: "article.product_pod h3 a"
+  price_selector: "p.price_color"
+  description_selector: "#product_description ~ p"
+  image_selector: ".item.active img"
+  category_selector: "ul.breadcrumb li:nth-child(3) a"
+  media_dir: "media"
