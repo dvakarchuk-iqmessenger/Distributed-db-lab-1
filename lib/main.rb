@@ -1,6 +1,6 @@
-require_relative "database_connector"
+require_relative "engine"
 
-connector = Lab1::DatabaseConnector.new
-connector.connect_to_database
-puts "DB type: #{connector.db_type}, connected: #{!connector.db.nil?}"
-connector.close_connection
+engine = Lab1::Engine.new
+engine.run
+
+puts "Engine finished."
