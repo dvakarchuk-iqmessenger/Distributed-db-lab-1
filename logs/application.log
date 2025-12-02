@@ -383,3 +383,6 @@ I, [2025-12-02T20:57:26.608043 #9220]  INFO -- : Parse product page https://book
 I, [2025-12-02T20:57:26.608167 #9220]  INFO -- : Parse product page https://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
 I, [2025-12-02T20:57:26.608289 #9220]  INFO -- : Parse product page https://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
 I, [2025-12-02T20:57:27.880834 #9220]  INFO -- : SimpleWebsiteParser: parsed 20 products
+E, [2025-12-02T21:05:36.688049 #27896] ERROR -- : Database connection error: uninitialized constant Lab1::DatabaseConnector::FileUtils
+I, [2025-12-02T21:08:23.100576 #26468]  INFO -- : Connected to SQLite database at db/localdatabase.sqlite
+I, [2025-12-02T21:08:23.101179 #26468]  INFO -- : SQLite connection closed

@@ -1,7 +1,6 @@
-require_relative "simple_website_parser"
+require_relative "database_connector"
 
-parser = Lab1::SimpleWebsiteParser.new
-items  = parser.start_parse
-
-puts "Simple parser collected #{items.size} items"
-items.each { |i| p i.to_h }
+connector = Lab1::DatabaseConnector.new
+connector.connect_to_database
+puts "DB type: #{connector.db_type}, connected: #{!connector.db.nil?}"
+connector.close_connection
