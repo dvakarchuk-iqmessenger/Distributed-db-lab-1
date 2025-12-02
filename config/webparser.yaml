@@ -1,3 +1,7 @@
 webparser:
-  start_page: "https://example.com"
-  title_selector: "h1"
+  start_page: "https://books.toscrape.com/"
+  product_selector: "article.product_pod"
+  title_selector: "h3 a"
+  price_selector: "p.price_color"
+  category_selector: "ul.breadcrumb li:nth-child(3) a"
+  image_selector: "div.image_container img"
