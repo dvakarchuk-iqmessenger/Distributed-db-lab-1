@@ -46,3 +46,7 @@
     - `load_database_config`
 
 Перевірка роботи конфігурації виконується через скрипт `lib/main.rb`, який зчитує всі чотири конфіг‑файли за допомогою `AppConfigLoader` та виводить їх вміст у консоль. Успішний запуск `ruby lib/main.rb` підтверджує коректну роботу системи конфігурацій.
+
+<img width="1253" height="397" alt="image" src="https://github.com/user-attachments/assets/fe845724-d3eb-4beb-8b31-5c89a427069f" />
+
+
